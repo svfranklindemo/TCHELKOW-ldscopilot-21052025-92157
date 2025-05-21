@@ -1,7 +1,19 @@
 {
-  "mappings": [
-    "/content/pbakliwal/eds-crosswalk-source/:/",
-    "/content/pbakliwal/eds-crosswalk-source/metadata.json:/metadata.json",
-    "/content/pbakliwal/eds-crosswalk-source/redirects.json:/redirects.json"
-  ]
+    "mappings": [
+      "/content/TCHELKOW/quantas-eds/:/",
+      "/content/TCHELKOW/quantas-eds/configuration:/.helix/config.json",
+      "/content/TCHELKOW/quantas-eds/metadata:/metadata.json",
+      "/content/TCHELKOW/quantas-eds/configs:/configs.json",
+      "/content/TCHELKOW/quantas-eds/configs-stage:/configs-stage.json",
+      "/content/TCHELKOW/quantas-eds/configs-dev:/configs-dev.json",
+      "/content/TCHELKOW/quantas-eds/redirects:/redirects.json",
+      "/content/TCHELKOW/quantas-eds/placeholders:/placeholders.json",
+      "/content/TCHELKOW/quantas-eds/products/recommended-products:/products/recommended-products.json",
+      "/content/TCHELKOW/quantas-eds/enrichment/enrichment:/enrichment/enrichment.json",
+      "/content/TCHELKOW/quantas-eds/images/products/:/images/products/"
+    ],
+    "includes": [
+      "/content/TCHELKOW/quantas-eds",
+      "/content/dam/citisignal/images/products/"
+    ]
 }
